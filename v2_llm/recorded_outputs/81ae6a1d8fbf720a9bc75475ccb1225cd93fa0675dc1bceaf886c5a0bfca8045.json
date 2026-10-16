@@ -1,0 +1,14 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:32:47.325127+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "DEV-01",
+    "DEV-02",
+    "HR-01",
+    "HR-03",
+    "HR-04",
+    "HR-05"
+  ],
+  "raw_response": "{\"claims\": [], \"not_covered\": [\"bringing pets to work\"], \"passage_assessment\": [{\"id\": \"HR-01\", \"relation\": \"irrelevant\"}, {\"id\": \"HR-03\", \"relation\": \"irrelevant\"}, {\"id\": \"HR-04\", \"relation\": \"irrelevant\"}, {\"id\": \"HR-05\", \"relation\": \"irrelevant\"}, {\"id\": \"DEV-01\", \"relation\": \"irrelevant\"}, {\"id\": \"DEV-02\", \"relation\": \"irrelevant\"}], \"semantic_conflicts\": []}"
+}

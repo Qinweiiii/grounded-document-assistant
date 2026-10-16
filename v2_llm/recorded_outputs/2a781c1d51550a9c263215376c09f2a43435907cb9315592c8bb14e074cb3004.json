@@ -1,0 +1,16 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:32:57.337646+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "FAQ-01",
+    "HR-01",
+    "HR-02",
+    "HR-03",
+    "HR-06",
+    "IT-01",
+    "IT-03",
+    "IT-04"
+  ],
+  "raw_response": "{\n  \"claims\": [],\n  \"not_covered\": [\n    \"sick leave\"\n  ],\n  \"passage_assessment\": [\n    {\"id\": \"HR-01\", \"relation\": \"related_only\"},\n    {\"id\": \"HR-02\", \"relation\": \"related_only\"},\n    {\"id\": \"HR-03\", \"relation\": \"related_only\"},\n    {\"id\": \"IT-01\", \"relation\": \"irrelevant\"},\n    {\"id\": \"IT-03\", \"relation\": \"irrelevant\"},\n    {\"id\": \"IT-04\", \"relation\": \"irrelevant\"},\n    {\"id\": \"HR-06\", \"relation\": \"related_only\"},\n    {\"id\": \"FAQ-01\", \"relation\": \"related_only\"}\n  ],\n  \"semantic_conflicts\": []\n}"
+}

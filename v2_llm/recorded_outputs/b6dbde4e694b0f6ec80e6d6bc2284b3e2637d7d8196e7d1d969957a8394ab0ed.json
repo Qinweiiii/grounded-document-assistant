@@ -1,0 +1,14 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:32:39.059520+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "ADM-03",
+    "FAQ-03",
+    "FIN-02",
+    "HR-01",
+    "HR-06",
+    "IT-06"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"Monthly reimbursement requests must be submitted to the finance system by 18:00 on the 25th of the month.\",\n      \"evidence\": [\n        {\n          \"id\": \"FIN-02\",\n          \"quote\": \"Monthly reimbursement requests must be submitted to the finance system by 18:00 on the 25th of the month.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [],\n  \"passage_assessment\": [\n    {\n      \"id\": \"HR-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-06\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FIN-02\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"ADM-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-06\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FAQ-03\",\n      \"relation\": \"irrelevant\"\n    }\n  ],\n  \"semantic_conflicts\": []\n}"
+}

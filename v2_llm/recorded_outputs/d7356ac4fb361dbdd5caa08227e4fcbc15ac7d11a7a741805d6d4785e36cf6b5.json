@@ -1,0 +1,15 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:29:31.870468+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "DEV-01",
+    "DEV-02",
+    "DEV-03",
+    "HR-01",
+    "HR-03",
+    "HR-04",
+    "HR-05"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"The standard working hours are Monday to Friday, 09:00-18:00, with a lunch break from 12:00 to 13:00.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-04\",\n          \"quote\": \"The standard working hours are Monday to Friday, 09:00-18:00, with a lunch break from 12:00 to 13:00.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"Departments may adopt flexible clock-in based on business needs.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-04\",\n          \"quote\": \"Departments may adopt flexible clock-in based on business needs.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"R&D team employees may arrive between 09:00 and 10:30 but must still meet the required daily working hours.\",\n      \"evidence\": [\n        {\n          \"id\": \"DEV-02\",\n          \"quote\": \"employees may arrive between 09:00 and 10:30, but must still meet the required daily working hours.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [\n    \"statutory holiday schedule\"\n  ],\n  \"passage_assessment\": [\n    {\n      \"id\": \"HR-04\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"DEV-02\",\n      \"relation\": \"partial\"\n    },\n    {\n      \"id\": \"HR-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-05\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"DEV-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"DEV-03\",\n      \"relation\": \"irrelevant\"\n    }\n  ],\n  \"semantic_conflicts\": []\n}"
+}

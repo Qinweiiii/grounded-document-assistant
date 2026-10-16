@@ -1,0 +1,16 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:34:55.553824+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "HR-01",
+    "HR-02",
+    "HR-03",
+    "HR-05",
+    "HR-06",
+    "IT-01",
+    "IT-03",
+    "IT-04"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"Employees receive 10 days of paid annual leave per year.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-01\",\n          \"quote\": \"Employees receive 10 days of paid annual leave (Paid Time Off, PTO) per year.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"Regular employees receive 12 days of paid annual leave per year.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-02\",\n          \"quote\": \"Regular employees receive 12 days of paid annual leave per year.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [],\n  \"passage_assessment\": [\n    {\n      \"id\": \"HR-01\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"HR-02\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"HR-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-05\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-04\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-06\",\n      \"relation\": \"irrelevant\"\n    }\n  ],\n  \"semantic_conflicts\": [\n    {\n      \"description\": \"Passages provide different numbers for the annual paid leave entitlement (10 days vs 12 days).\",\n      \"ids\": [\n        \"HR-01\",\n        \"HR-02\"\n      ]\n    }\n  ]\n}"
+}

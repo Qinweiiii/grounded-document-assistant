@@ -1,0 +1,12 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:35:43.999954+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "FIN-03",
+    "HR-01",
+    "HR-02",
+    "HR-05"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"Monthly salary is paid on the 10th of the following month.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-05\",\n          \"quote\": \"Monthly salary is paid on the 10th of the following month.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"If the payday falls on a non-working day, it is paid on the nearest preceding working day.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-05\",\n          \"quote\": \"If the payday falls on a non-working day, it is paid on the nearest preceding working day.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [],\n  \"passage_assessment\": [\n    {\n      \"id\": \"HR-05\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"HR-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-02\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FIN-03\",\n      \"relation\": \"irrelevant\"\n    }\n  ],\n  \"semantic_conflicts\": []\n}"
+}

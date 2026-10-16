@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:31:32.180742+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "ADM-03",
+    "FAQ-01",
+    "FIN-02",
+    "HR-01",
+    "HR-06"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"Leave requests must be submitted at least 3 working days in advance.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-01\",\n          \"quote\": \"Leave requests must be submitted at least 3 working days in advance.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"Time off requests can be submitted through the internal HR system.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-06\",\n          \"quote\": \"When employees need time off, they can submit a time off request through the internal HR system.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"All leave requests must be reviewed by the direct manager.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-06\",\n          \"quote\": \"All leave requests must be reviewed by the direct manager\"\n        }\n      ]\n    },\n    {\n      \"text\": \"Leave may be taken only after the system approval is completed.\",\n      \"evidence\": [\n        {\n          \"id\": \"HR-06\",\n          \"quote\": \"leave may be taken only after the system approval is completed.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"When applying for vacation, select the corresponding leave type and enter the start and end dates.\",\n      \"evidence\": [\n        {\n          \"id\": \"FAQ-01\",\n          \"quote\": \"When applying for vacation, select the corresponding leave type and enter the start and end dates.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [],\n  \"passage_assessment\": [\n    {\n      \"id\": \"HR-01\",\n      \"relation\": \"partial\"\n    },\n    {\n      \"id\": \"HR-06\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"FIN-02\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"ADM-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FAQ-01\",\n      \"relation\": \"partial\"\n    }\n  ],\n  \"semantic_conflicts\": []\n}"
+}

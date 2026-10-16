@@ -1,0 +1,16 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:35:26.370343+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "FIN-03",
+    "FIN-04",
+    "HR-01",
+    "IT-01",
+    "IT-02",
+    "IT-03",
+    "IT-04",
+    "IT-05"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"The current employee referral bonus is $400.\",\n      \"evidence\": [\n        {\n          \"id\": \"FIN-03\",\n          \"quote\": \"the employee who referred them receives an internal referral bonus of $400\"\n        }\n      ]\n    },\n    {\n      \"text\": \"Under the old policy, the referral reward was $300.\",\n      \"evidence\": [\n        {\n          \"id\": \"FIN-04\",\n          \"quote\": \"the referrer receives a reward of $300\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [],\n  \"passage_assessment\": [\n    {\n      \"id\": \"FIN-03\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"FIN-04\",\n      \"relation\": \"partial\"\n    },\n    {\n      \"id\": \"IT-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-02\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-04\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"IT-05\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-01\",\n      \"relation\": \"irrelevant\"\n    }\n  ],\n  \"semantic_conflicts\": []\n}"
+}

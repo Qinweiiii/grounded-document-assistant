@@ -1,0 +1,16 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:28:41.489746+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "DEV-01",
+    "FAQ-01",
+    "FAQ-02",
+    "FIN-03",
+    "HR-06",
+    "IT-02",
+    "IT-05",
+    "IT-06"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"Employees may use a personal computer to access the internal document system after approval from their department head.\",\n      \"evidence\": [\n        {\n          \"id\": \"IT-05\",\n          \"quote\": \"Employees may use a personal computer to access the internal document system after approval from their department head.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"R&D department employees must not use personal computers to access the internal document system.\",\n      \"evidence\": [\n        {\n          \"id\": \"DEV-01\",\n          \"quote\": \"R&D department employees must not use personal computers to access the internal document system.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [],\n  \"passage_assessment\": [\n    {\n      \"id\": \"IT-05\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"DEV-01\",\n      \"relation\": \"answers\"\n    },\n    {\n      \"id\": \"IT-02\",\n      \"relation\": \"related_only\"\n    },\n    {\n      \"id\": \"IT-06\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"HR-06\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FIN-03\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FAQ-01\",\n      \"relation\": \"irrelevant\"\n    },\n    {\n      \"id\": \"FAQ-02\",\n      \"relation\": \"irrelevant\"\n    }\n  ],\n  \"semantic_conflicts\": [\n    {\n      \"description\": \"One policy allows personal computer access to the internal document system after approval, while another policy forbids it for R&D department employees.\",\n      \"ids\": [\n        \"IT-05\",\n        \"DEV-01\"\n      ]\n    }\n  ]\n}"
+}

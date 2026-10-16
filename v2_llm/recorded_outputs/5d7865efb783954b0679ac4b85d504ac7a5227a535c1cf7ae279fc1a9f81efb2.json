@@ -1,0 +1,9 @@
+{
+  "model": "qwen3.8-27b",
+  "timestamp": "2026-10-16T09:25:36.560954+00:00",
+  "prompt_version": "grounded-document-assistant-v2.1",
+  "candidate_ids": [
+    "IT-02"
+  ],
+  "raw_response": "{\n  \"claims\": [\n    {\n      \"text\": \"Employees accessing the internal R&D platform from outside the company office network must first connect to the corporate VPN.\",\n      \"evidence\": [\n        {\n          \"id\": \"IT-02\",\n          \"quote\": \"Employees accessing the internal R&D platform from outside the company office network must first connect to the corporate VPN.\"\n        }\n      ]\n    },\n    {\n      \"text\": \"VPN accounts are the same as the company's unified identity authentication accounts.\",\n      \"evidence\": [\n        {\n          \"id\": \"IT-02\",\n          \"quote\": \"VPN accounts are the same as the company's unified identity authentication accounts.\"\n        }\n      ]\n    }\n  ],\n  \"not_covered\": [\n    \"Step-by-step instructions for connecting to the VPN\",\n    \"VPN client software requirements or download links\",\n    \"Troubleshooting steps for VPN connection issues\"\n  ],\n  \"passage_assessment\": [\n    {\n      \"id\": \"IT-02\",\n      \"relation\": \"partial\"\n    }\n  ],\n  \"semantic_conflicts\": []\n}"
+}
